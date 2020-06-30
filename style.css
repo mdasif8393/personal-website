@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section{
+    height:600px;
+}
+.pink-highlight{
+    color:#da2d67;
+    font-size: 30px;
+    font-weight: 100px;
+    
+    
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #da2d67, #e75555 );
+    border-radius: 5px;
+    color: white;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    padding: 2%;
+}
+.half-width img{
+    width:100%;
+}
+#first-section-first-div{
+    margin-top: 100px;
+    margin-left: 130px;
+}
+p{
+    color:dimgray; 
+}
+h3{
+    font-size: 20px;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+#second-section-second-div{
+    margin-top: 120px;
+}
+#second-section-first-div{
+    margin-left: 130px;
+    margin-right: 0px;
+}
+.second-banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.quater-width{
+    width: 22%;
+    float: left;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.quater-width img{
+    width: 100%;
+}
+#third-section-first-div{
+    margin-right: -100px;
+}
+#third-section-secong-div{
+    margin-right: -100px;
+}
+#latest-work{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+.third-banner{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
