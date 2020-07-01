@@ -6,7 +6,7 @@ body{
 section{
     height:600px;
 }
-.pink-highlight{
+#pink-highlight{
     color:#da2d67;
     font-size: 30px;
     font-weight: 100px;
@@ -43,8 +43,12 @@ h3{
     background-repeat: no-repeat;
     background-position: center;
 }
+.half-width h3{
+    margin-bottom: -25px;
+}
 #second-section-second-div{
     margin-top: 120px;
+    margin-left: -100px;
 }
 #second-section-first-div{
     margin-left: 130px;
@@ -53,7 +57,8 @@ h3{
 .second-banner{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 .quater-width{
     width: 22%;
@@ -124,4 +129,23 @@ footer{
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+#footer-fifth-div{
+    text-align: center;
+    font-size: 8px;
+}
+.extra-decoration{
+    box-shadow: 10px 10px 40px gray;
+    width:300px;
+    margin-left: 200px;
+    border: 2px solid;
+    border-image: linear-gradient(180deg, #da2d67, #e75555);
+    border-image-slice: 1;
+    background-color:whitesmoke;
+    margin-top: 50px;
+    
+}
+.extra-decoration h1{
+    color:#e75555;
+    text-align: center;
 }
